@@ -1,4 +1,4 @@
-FROM registry.connect.redhat.com/rhel7-atomic
+FROM docker-registry-default.apps.labs.toyota.com/rhel7-atomic
 MAINTAINER Red Hat Systems Engineering <refarch-feedback@redhat.com>
 
 ### Atomic/OpenShift Labels - https://github.com/projectatomic/ContainerApplicationGenericLabels 
