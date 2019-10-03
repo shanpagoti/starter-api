@@ -1,7 +1,7 @@
-#FROM docker-registry-default.apps.labs.toyota.com/rhel7
+FROM docker-registry-default.apps.labs.toyota.com/rhel7
 #FROM localhost:5000/ubi:latest
 
-FROM docker-registry-default.apps.labs.toyota.com/tkpdemo/tmnaweb-rhel77:v1 --insecure-skip-tls-verify
+#FROM docker-registry-default.apps.labs.toyota.com/tkpdemo/tmnaweb-rhel77:v1 --insecure-skip-tls-verify
 
 MAINTAINER Red Hat Systems Engineering <refarch-feedback@redhat.com>
 
