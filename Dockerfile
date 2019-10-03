@@ -1,4 +1,6 @@
-FROM docker-registry-default.apps.labs.toyota.com/rhel7
+#FROM docker-registry-default.apps.labs.toyota.com/rhel7
+FROM localhost:5000/ubi:latest
+
 MAINTAINER Red Hat Systems Engineering <refarch-feedback@redhat.com>
 
 ### Atomic/OpenShift Labels - https://github.com/projectatomic/ContainerApplicationGenericLabels 
