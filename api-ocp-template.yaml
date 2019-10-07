@@ -19,8 +19,7 @@ objects:
   spec:
     source:
       git:
-        uri: https://github.com/RHsyseng/container-rhel-examples
-      contextDir: "starter-api"
+        uri: https://github.com/shanpagoti/starter-api.git
     strategy: 
       type: "Docker"
     output:
